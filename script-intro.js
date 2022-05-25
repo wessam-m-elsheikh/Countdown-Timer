@@ -21,7 +21,7 @@ function submitDate() {
         alert("ENTER A VALID DATE")
     } else {
         const start = document.getElementsByTagName('a')
-        start[0].setAttribute('href', './index.html')
+        start[0].setAttribute('href', './timer.html')
 
         if (monthValue < 10) {
             monthValue = `0${monthValue}`
