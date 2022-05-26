@@ -2,8 +2,7 @@ const daysText = document.querySelector('#day')
 const hoursText = document.querySelector('#hour')
 const minText = document.querySelector('#min')
 const secText = document.querySelector('#sec')
-let DATEENTERED = sessionStorage.getItem("DATEENTERED")
-console.log(DATEENTERED)
+let DATEENTERED = sessionStorage.getItem("DATEENTERED") 
 
 
 function counter() {
