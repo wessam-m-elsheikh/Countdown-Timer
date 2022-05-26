@@ -2,7 +2,6 @@ let yearValue;
 let dayValue;
 let monthValue;
 const submitBtn = document.querySelector('#submit')
-// submitBtn.addEventListener('click', submitDate)
 
 function submitDate() {
     const input1 = document.getElementById("year")
