@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: black;
     color: bisque;
@@ -31,7 +35,6 @@ a {
 .btn {
     margin: 20px;
     font-weight: 800;
-    /* border-style: solid; */
     border-radius: 5px;
     text-align: center;
     height: fit-content;
